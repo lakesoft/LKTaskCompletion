@@ -18,7 +18,7 @@
 
 - (void)_willResignActive:(NSNotification*)notification
 {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+//    NSLog(@"%s", __PRETTY_FUNCTION__);
     
     if (!self.enabled) {
         return;
@@ -28,7 +28,7 @@
     
     self.backgroundTaskIdentifer = [UIApplication.sharedApplication
                                     beginBackgroundTaskWithExpirationHandler:^{
-                                        NSLog(@"expired!");
+//                                        NSLog(@"expired!");
                                         dispatch_async(dispatch_get_main_queue(), ^{
                                             if (self.backgroundTaskIdentifer != UIBackgroundTaskInvalid) {
                                                 [UIApplication.sharedApplication endBackgroundTask:self.backgroundTaskIdentifer];
@@ -40,7 +40,7 @@
 
 - (void)_didBecomeActive:(NSNotification*)notification
 {
-    NSLog(@"%s", __PRETTY_FUNCTION__);
+//    NSLog(@"%s", __PRETTY_FUNCTION__);
 
     dispatch_async(dispatch_get_main_queue(), ^{
         if (self.backgroundTaskIdentifer != UIBackgroundTaskInvalid) {
