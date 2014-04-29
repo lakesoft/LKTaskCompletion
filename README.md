@@ -7,25 +7,25 @@ Task Completion Utility
 
 1. Setup
 
-    #import "LKTaskCompletion.h"
-
-    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-    {
-        [LKTaskCompletion.sharedInstance setup];
+        #import "LKTaskCompletion.h"
+    
+        - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+        {
+            [LKTaskCompletion.sharedInstance setup];
             :
-    }
+        }
 
 2. When your task has finished
 
-Call endBackgroundTask method.
+    Call endBackgroundTask method.
 
-    [LKTaskCompletion.sharedInstance endBackgroundTask];
+        [LKTaskCompletion.sharedInstance endBackgroundTask];
 
 3. Etc
 
-If you want to be disable background task, use enabled property.
+    If you want to be disable background task, use enabled property.
 
-    LKTaskCompletion.sharedInstance.enabled = NO;
+        LKTaskCompletion.sharedInstance.enabled = NO;
 
 
 ## Installation
