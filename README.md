@@ -28,6 +28,12 @@ Task Completion Utility
         LKTaskCompletion.sharedInstance.enabled = NO;
 
 
+##Example
+
+	Count down in background.
+	!(/Docs/README-1.jpg)
+
+
 ## Installation
 
 The library is available through [CocoaPods](http://cocoapods.org), to install
