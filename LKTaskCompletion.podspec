@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LKTaskCompletion"
-  s.version      = "0.9.0"
+  s.version      = "1.0.0"
   s.summary      = "Task Completion Utility"
   s.description  = <<-DESC
 Task Completion Utility.
