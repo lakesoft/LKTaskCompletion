@@ -1,5 +1,5 @@
 //
-//  LKViewController.h
+//  TableViewController.h
 //  LKTaskCompletion
 //
 //  Created by Hiroshi Hashiguchi on 2014/04/29.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LKViewController : UIViewController
+@interface TableViewController : UITableViewController
 
 @end

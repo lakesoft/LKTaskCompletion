@@ -7,12 +7,13 @@
 //
 
 #import "LKAppDelegate.h"
+#import "LKTaskCompletion.h"
 
 @implementation LKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [LKTaskCompletion.sharedInstance setup];
     return YES;
 }
 							

@@ -14,13 +14,16 @@
 		BC2118D2190F1C6200846D75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2118D1190F1C6200846D75 /* main.m */; };
 		BC2118D6190F1C6200846D75 /* LKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2118D5190F1C6200846D75 /* LKAppDelegate.m */; };
 		BC2118D9190F1C6200846D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2118D7190F1C6200846D75 /* Main.storyboard */; };
-		BC2118DC190F1C6200846D75 /* LKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2118DB190F1C6200846D75 /* LKViewController.m */; };
 		BC2118DE190F1C6200846D75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2118DD190F1C6200846D75 /* Images.xcassets */; };
 		BC2118E5190F1C6200846D75 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2118E4190F1C6200846D75 /* XCTest.framework */; };
 		BC2118E6190F1C6200846D75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2118C5190F1C6200846D75 /* Foundation.framework */; };
 		BC2118E7190F1C6200846D75 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2118C9190F1C6200846D75 /* UIKit.framework */; };
 		BC2118EF190F1C6200846D75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC2118ED190F1C6200846D75 /* InfoPlist.strings */; };
 		BC2118F1190F1C6200846D75 /* LKTaskCompletionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC2118F0190F1C6200846D75 /* LKTaskCompletionTests.m */; };
+		BC49CAE2190F1DAA00A26653 /* LKTaskCompletion.m in Sources */ = {isa = PBXBuildFile; fileRef = BC49CAE1190F1DAA00A26653 /* LKTaskCompletion.m */; };
+		BC49CAE5190F234900A26653 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC49CAE4190F234900A26653 /* TableViewController.m */; };
+		BC49CAE8190F23D100A26653 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = BC49CAE7190F23D100A26653 /* Queue.m */; };
+		BC49CAEB190F25C500A26653 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = BC49CAEA190F25C500A26653 /* Cell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +48,22 @@
 		BC2118D4190F1C6200846D75 /* LKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKAppDelegate.h; sourceTree = "<group>"; };
 		BC2118D5190F1C6200846D75 /* LKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKAppDelegate.m; sourceTree = "<group>"; };
 		BC2118D8190F1C6200846D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC2118DA190F1C6200846D75 /* LKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKViewController.h; sourceTree = "<group>"; };
-		BC2118DB190F1C6200846D75 /* LKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKViewController.m; sourceTree = "<group>"; };
 		BC2118DD190F1C6200846D75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BC2118E3190F1C6200846D75 /* LKTaskCompletionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKTaskCompletionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC2118E4190F1C6200846D75 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BC2118EC190F1C6200846D75 /* LKTaskCompletionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LKTaskCompletionTests-Info.plist"; sourceTree = "<group>"; };
 		BC2118EE190F1C6200846D75 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BC2118F0190F1C6200846D75 /* LKTaskCompletionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKTaskCompletionTests.m; sourceTree = "<group>"; };
+		BC49CADD190F1D4200A26653 /* LKTaskCompletion.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LKTaskCompletion.podspec; sourceTree = "<group>"; };
+		BC49CAE0190F1DAA00A26653 /* LKTaskCompletion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKTaskCompletion.h; sourceTree = "<group>"; };
+		BC49CAE1190F1DAA00A26653 /* LKTaskCompletion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKTaskCompletion.m; sourceTree = "<group>"; };
+		BC49CAE3190F234900A26653 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		BC49CAE4190F234900A26653 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		BC49CAE6190F23D100A26653 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		BC49CAE7190F23D100A26653 /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		BC49CAE9190F25C500A26653 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		BC49CAEA190F25C500A26653 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		BC49CAEC190F281F00A26653 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +93,11 @@
 		BC2118B9190F1C6200846D75 = {
 			isa = PBXGroup;
 			children = (
-				BC2118CB190F1C6200846D75 /* LKTaskCompletion */,
-				BC2118EA190F1C6200846D75 /* LKTaskCompletionTests */,
+				BC49CAEC190F281F00A26653 /* README.md */,
+				BC49CADC190F1D0900A26653 /* Cocoapods */,
+				BC49CADF190F1D8300A26653 /* Classes */,
+				BC2118CB190F1C6200846D75 /* Examples */,
+				BC2118EA190F1C6200846D75 /* Tests */,
 				BC2118C4190F1C6200846D75 /* Frameworks */,
 				BC2118C3190F1C6200846D75 /* Products */,
 			);
@@ -109,18 +123,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BC2118CB190F1C6200846D75 /* LKTaskCompletion */ = {
+		BC2118CB190F1C6200846D75 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
 				BC2118D4190F1C6200846D75 /* LKAppDelegate.h */,
 				BC2118D5190F1C6200846D75 /* LKAppDelegate.m */,
 				BC2118D7190F1C6200846D75 /* Main.storyboard */,
-				BC2118DA190F1C6200846D75 /* LKViewController.h */,
-				BC2118DB190F1C6200846D75 /* LKViewController.m */,
+				BC49CAE3190F234900A26653 /* TableViewController.h */,
+				BC49CAE4190F234900A26653 /* TableViewController.m */,
+				BC49CAE9190F25C500A26653 /* Cell.h */,
+				BC49CAEA190F25C500A26653 /* Cell.m */,
+				BC49CAE6190F23D100A26653 /* Queue.h */,
+				BC49CAE7190F23D100A26653 /* Queue.m */,
 				BC2118DD190F1C6200846D75 /* Images.xcassets */,
 				BC2118CC190F1C6200846D75 /* Supporting Files */,
 			);
-			path = LKTaskCompletion;
+			path = Examples;
 			sourceTree = "<group>";
 		};
 		BC2118CC190F1C6200846D75 /* Supporting Files */ = {
@@ -134,13 +152,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BC2118EA190F1C6200846D75 /* LKTaskCompletionTests */ = {
+		BC2118EA190F1C6200846D75 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				BC2118F0190F1C6200846D75 /* LKTaskCompletionTests.m */,
 				BC2118EB190F1C6200846D75 /* Supporting Files */,
 			);
-			path = LKTaskCompletionTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 		BC2118EB190F1C6200846D75 /* Supporting Files */ = {
@@ -150,6 +168,23 @@
 				BC2118ED190F1C6200846D75 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC49CADC190F1D0900A26653 /* Cocoapods */ = {
+			isa = PBXGroup;
+			children = (
+				BC49CADD190F1D4200A26653 /* LKTaskCompletion.podspec */,
+			);
+			name = Cocoapods;
+			sourceTree = "<group>";
+		};
+		BC49CADF190F1D8300A26653 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC49CAE0190F1DAA00A26653 /* LKTaskCompletion.h */,
+				BC49CAE1190F1DAA00A26653 /* LKTaskCompletion.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,9 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC49CAE8190F23D100A26653 /* Queue.m in Sources */,
 				BC2118D2190F1C6200846D75 /* main.m in Sources */,
+				BC49CAE2190F1DAA00A26653 /* LKTaskCompletion.m in Sources */,
 				BC2118D6190F1C6200846D75 /* LKAppDelegate.m in Sources */,
-				BC2118DC190F1C6200846D75 /* LKViewController.m in Sources */,
+				BC49CAE5190F234900A26653 /* TableViewController.m in Sources */,
+				BC49CAEB190F25C500A26653 /* Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,8 +416,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LKTaskCompletion/LKTaskCompletion-Prefix.pch";
-				INFOPLIST_FILE = "LKTaskCompletion/LKTaskCompletion-Info.plist";
+				GCC_PREFIX_HEADER = "Examples/LKTaskCompletion-Prefix.pch";
+				INFOPLIST_FILE = "Examples/LKTaskCompletion-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -391,8 +429,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LKTaskCompletion/LKTaskCompletion-Prefix.pch";
-				INFOPLIST_FILE = "LKTaskCompletion/LKTaskCompletion-Info.plist";
+				GCC_PREFIX_HEADER = "Examples/LKTaskCompletion-Prefix.pch";
+				INFOPLIST_FILE = "Examples/LKTaskCompletion-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,12 +446,12 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LKTaskCompletion/LKTaskCompletion-Prefix.pch";
+				GCC_PREFIX_HEADER = "Examples/LKTaskCompletion-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "LKTaskCompletionTests/LKTaskCompletionTests-Info.plist";
+				INFOPLIST_FILE = "Tests/LKTaskCompletionTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -430,8 +468,8 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LKTaskCompletion/LKTaskCompletion-Prefix.pch";
-				INFOPLIST_FILE = "LKTaskCompletionTests/LKTaskCompletionTests-Info.plist";
+				GCC_PREFIX_HEADER = "Examples/LKTaskCompletion-Prefix.pch";
+				INFOPLIST_FILE = "Tests/LKTaskCompletionTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -457,6 +495,7 @@
 				BC2118F6190F1C6200846D75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC2118F7190F1C6200846D75 /* Build configuration list for PBXNativeTarget "LKTaskCompletionTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +504,7 @@
 				BC2118F9190F1C6200846D75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
