@@ -31,7 +31,8 @@ Task Completion Utility
 ##Example
 
 	Count down in background.
-	!(/Docs/README-1.jpg)
+	
+![Image](/Docs/README-1.jpg)
 
 
 ## Installation
