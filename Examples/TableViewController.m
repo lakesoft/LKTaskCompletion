@@ -40,7 +40,9 @@
     dispatch_async(gcd_queue, ^{
         
         UIApplication* app = [UIApplication sharedApplication];
-        app.applicationIconBadgeNumber = self.queue.count;
+        dispatch_async(dispatch_get_main_queue(), ^{
+            app.applicationIconBadgeNumber = self.queue.count;
+        });
         for(;;) {
             if (self.queue.count > 0) {
                 id object = self.queue.getObject;
